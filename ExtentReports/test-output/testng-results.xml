@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-19T01:15:23 IST" name="Default suite" finished-at="2025-02-19T01:15:25 IST" duration-ms="2403">
+    <groups>
+    </groups>
+    <test started-at="2025-02-19T01:15:23 IST" name="Default test" finished-at="2025-02-19T01:15:25 IST" duration-ms="2403">
+      <class name="tushargaurautomation.ExtentReports.ExtentReportsDemo">
+        <test-method is-config="true" signature="config()[pri:0, instance:tushargaurautomation.ExtentReports.ExtentReportsDemo@707194ba]" started-at="2025-02-19T01:15:23 IST" name="config" finished-at="2025-02-19T01:15:23 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="initialDemo()[pri:0, instance:tushargaurautomation.ExtentReports.ExtentReportsDemo@707194ba]" started-at="2025-02-19T01:15:23 IST" name="initialDemo" finished-at="2025-02-19T01:15:25 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- tushargaurautomation.ExtentReports.ExtentReportsDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+tushargaurautomation/pageobjects/CartPage.class
+tushargaurautomation/pageobjects/OrdersPage.class
+tushargaurautomation/pageobjects/ConfirmationPage.class
+tushargaurautomation/pageobjects/ProductCatalogue.class
+tushargaurautomation/AbstractComponents/AbstractComponent.class
+tushargaurautomation/pageobjects/LandingPage.class
+tushargaurautomation/pageobjects/CheckoutPage.class
+tushargaurautomation/resources/ExtentReporterNG.class

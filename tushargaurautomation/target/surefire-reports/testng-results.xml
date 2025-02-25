@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T21:06:24 IST" name="Suite" finished-at="2025-02-24T21:07:13 IST" duration-ms="48805">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" name="LoginErrorValidation" class="tushargaurautomation.tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.ProductErrorValidation()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" name="ProductErrorValidation" class="tushargaurautomation.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" name="submitOrder" class="tushargaurautomation.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-24T21:06:24 IST" name="Submit Order Test" finished-at="2025-02-24T21:06:56 IST" duration-ms="32140">
+      <class name="tushargaurautomation.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:24 IST" name="launchApplication" finished-at="2025-02-24T21:06:30 IST" duration-ms="5936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:30 IST" name="OrderHistoryTest" finished-at="2025-02-24T21:06:30 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:30 IST" name="Teardown" finished-at="2025-02-24T21:06:30 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:30 IST" name="launchApplication" finished-at="2025-02-24T21:06:32 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:32 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-24T21:06:43 IST" duration-ms="11100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:43 IST" name="Teardown" finished-at="2025-02-24T21:06:43 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:43 IST" name="launchApplication" finished-at="2025-02-24T21:06:45 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:45 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-24T21:06:56 IST" duration-ms="11174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tushargaurautomation.tests.SubmitOrderTest@548a24a]" started-at="2025-02-24T21:06:56 IST" name="Teardown" finished-at="2025-02-24T21:06:56 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- tushargaurautomation.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2025-02-24T21:06:56 IST" name="Error Validations Test" finished-at="2025-02-24T21:07:13 IST" duration-ms="16560">
+      <class name="tushargaurautomation.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:06:56 IST" name="launchApplication" finished-at="2025-02-24T21:06:57 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:06:57 IST" name="LoginErrorValidation" finished-at="2025-02-24T21:07:00 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:07:00 IST" name="Teardown" finished-at="2025-02-24T21:07:00 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:07:00 IST" name="launchApplication" finished-at="2025-02-24T21:07:02 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:07:02 IST" name="ProductErrorValidation" finished-at="2025-02-24T21:07:13 IST" duration-ms="10543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tushargaurautomation.tests.ErrorValidationsTest@1807f5a7]" started-at="2025-02-24T21:07:13 IST" name="Teardown" finished-at="2025-02-24T21:07:13 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- tushargaurautomation.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
