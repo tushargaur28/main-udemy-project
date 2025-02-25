@@ -25,6 +25,8 @@ public class Assignment1Checkbox {
 
 		List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println(checkboxes.size());
+		Boolean ck = checkboxes.get(1).isDisplayed();
+		System.out.println(ck);
 	}
 
 }

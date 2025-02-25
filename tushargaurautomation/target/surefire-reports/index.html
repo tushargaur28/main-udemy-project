@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tushargaurautomation.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})">submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tushargaurautomation.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})">submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,16 +135,6 @@
                         <a href="#" panel-name="suite-Suite" title="tushargaurautomation.tests.ErrorValidationsTest" class="method navigator-link" hash-for-method="ProductErrorValidation">ProductErrorValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tushargaurautomation.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})">submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tushargaurautomation.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})">submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -138,6 +147,80 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tushargaurautomation.tests.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})">
+                  </a> <!-- submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 653)
+  (Session info: chrome=133.0.6943.127)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.1&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6690c985327ff1195e4c50294eb26588, clickElement {id=f.8DE2613F810F65F8BE24A9F362385558.d.544B29B01CF77B16E56232FED258DA12.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55713/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6690c985327ff1195e4c50294eb26588)] -&gt; xpath: //a[contains(@class,&apos;action__submit&apos;)]]
+Session ID: 6690c985327ff1195e4c50294eb26588
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at tushargaurautomation.pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:40)
+	at tushargaurautomation.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})">
+                  </a> <!-- submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 653)
+  (Session info: chrome=133.0.6943.127)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.1&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a3ab6b52d3a4cac73cb96c0da9abe87, clickElement {id=f.6F41F553775EF5124150770D33274B68.d.D50EB1E7A4F5F5EDB41405C0C5EA556E.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55684/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9a3ab6b52d3a4cac73cb96c0da9abe87)] -&gt; xpath: //a[contains(@class,&apos;action__submit&apos;)]]
+Session ID: 9a3ab6b52d3a4cac73cb96c0da9abe87
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at tushargaurautomation.pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:40)
+	at tushargaurautomation.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -149,22 +232,6 @@
                   <a name="OrderHistoryTest">
                   </a> <!-- OrderHistoryTest -->
                   <span class="method-name">OrderHistoryTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})">
-                  </a> <!-- submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})">
-                  </a> <!-- submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,28 +345,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'tushargaurautomation.tests.SubmitOrderTest')
-data.setCell(0, 3, 11174);
+data.setCell(0, 3, 14732);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'submitOrder')
 data.setCell(1, 2, 'tushargaurautomation.tests.SubmitOrderTest')
-data.setCell(1, 3, 11100);
+data.setCell(1, 3, 12149);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ProductErrorValidation')
 data.setCell(2, 2, 'tushargaurautomation.tests.ErrorValidationsTest')
-data.setCell(2, 3, 10543);
+data.setCell(2, 3, 10585);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'LoginErrorValidation')
-data.setCell(3, 2, 'tushargaurautomation.tests.ErrorValidationsTest')
-data.setCell(3, 3, 2933);
+data.setCell(3, 1, 'OrderHistoryTest')
+data.setCell(3, 2, 'tushargaurautomation.tests.SubmitOrderTest')
+data.setCell(3, 3, 821);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'OrderHistoryTest')
-data.setCell(4, 2, 'tushargaurautomation.tests.SubmitOrderTest')
-data.setCell(4, 3, 403);
+data.setCell(4, 1, 'LoginErrorValidation')
+data.setCell(4, 2, 'tushargaurautomation.tests.ErrorValidationsTest')
+data.setCell(4, 3, 794);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -332,62 +399,66 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OrderHistoryTest</span>
-                <span class="method-start">5937 ms</span>
+                <span class="method-start">2886 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">6342 ms</span>
+                <span class="method-start">3709 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">6519 ms</span>
+                <span class="method-start">3884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitOrder({password=Test1234, productName=ZARA COAT 3, username=gaur.tushar281@gmail.com})</span>
-                <span class="method-start">8031 ms</span>
+                <span class="method-start">5533 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">19132 ms</span>
+                <span class="method-start">20416 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">19245 ms</span>
+                <span class="method-start">20530 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitOrder({password=Test1234, productName=IPHONE 13 PRO, username=gaur.tushar281@gmail.com})</span>
-                <span class="method-start">20847 ms</span>
+                <span class="method-start">24243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">32022 ms</span>
+                <span class="method-start">36514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tushargaurautomation.tests.ErrorValidationsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">32237 ms</span>
+                <span class="method-start">36721 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginErrorValidation</span>
-                <span class="method-start">33543 ms</span>
+                <span class="method-start">38811 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">36476 ms</span>
+                <span class="method-start">39605 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">36584 ms</span>
+                <span class="method-start">39663 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ProductErrorValidation</span>
-                <span class="method-start">38134 ms</span>
+                <span class="method-start">41655 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">48677 ms</span>
+                <span class="method-start">52240 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
