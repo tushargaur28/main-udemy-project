@@ -27,8 +27,6 @@ public class Assignment1Checkbox {
 		System.out.println(checkboxes.size());
 		Boolean ck = checkboxes.get(1).isDisplayed();
 		System.out.println(ck);
-		System.out.println(checkboxes.get(0).isDisplayed());
-		
 	}
 
 }

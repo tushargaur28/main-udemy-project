@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-26T00:58:50 IST" name="Default suite" finished-at="2025-02-26T00:59:36 IST" duration-ms="45255">
+  <suite started-at="2025-02-26T15:53:26 IST" name="Default suite" finished-at="2025-02-26T15:54:18 IST" duration-ms="52447">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-26T00:58:50 IST" name="Default test" finished-at="2025-02-26T00:59:36 IST" duration-ms="45255">
+    <test started-at="2025-02-26T15:53:26 IST" name="Default test" finished-at="2025-02-26T15:54:18 IST" duration-ms="52447">
       <class name="cucumber.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:58:50 IST" name="setUpClass" finished-at="2025-02-26T00:58:51 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:53:26 IST" name="setUpClass" finished-at="2025-02-26T15:53:26 IST" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3aed69dd]]>
+                <![CDATA[org.testng.TestRunner@ac91282]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:58:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T00:58:53 IST" duration-ms="2831" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:53:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T15:53:29 IST" duration-ms="3133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:58:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T00:59:07 IST" duration-ms="14036" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:53:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T15:53:43 IST" duration-ms="14193" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -57,10 +57,10 @@
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e66ce5645662cc6fa030fb3f0d03fa4, clickElement {id=f.6CB64D7D83E3FDB8EE0C9A8B2AFE81D7.d.8D5C996209B90FBD2B45E94231D925EE.e.119}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55596/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (7e66ce5645662cc6fa030fb3f0d03fa4)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: 7e66ce5645662cc6fa030fb3f0d03fa4]]>
+Command: [4589ce90ba0e762092faf14f64265bab, clickElement {id=f.5071440857066842FCA845F310315BFB.d.E3AB0A3258FFC35ACFE982FCD7E5B3F5.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4589ce90ba0e762092faf14f64265bab)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: 4589ce90ba0e762092faf14f64265bab]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 653)
@@ -68,10 +68,10 @@ Session ID: 7e66ce5645662cc6fa030fb3f0d03fa4]]>
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e66ce5645662cc6fa030fb3f0d03fa4, clickElement {id=f.6CB64D7D83E3FDB8EE0C9A8B2AFE81D7.d.8D5C996209B90FBD2B45E94231D925EE.e.119}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55596/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (7e66ce5645662cc6fa030fb3f0d03fa4)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: 7e66ce5645662cc6fa030fb3f0d03fa4
+Command: [4589ce90ba0e762092faf14f64265bab, clickElement {id=f.5071440857066842FCA845F310315BFB.d.E3AB0A3258FFC35ACFE982FCD7E5B3F5.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4589ce90ba0e762092faf14f64265bab)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: 4589ce90ba0e762092faf14f64265bab
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -97,7 +97,7 @@ at ✽.Checkout ZARA COAT 3 and submit the order(file:///Users/tushargaur/eclips
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:59:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T00:59:21 IST" duration-ms="13987" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:53:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T15:54:04 IST" duration-ms="21101" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -117,10 +117,10 @@ at ✽.Checkout ZARA COAT 3 and submit the order(file:///Users/tushargaur/eclips
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2806775c42d586d3a0aeeb67982d6d3, clickElement {id=f.6E0970ED63FBA395A8EDE76F1C752270.d.F5B62CB9C42C0485E8C8B9394509D349.e.119}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55616/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (d2806775c42d586d3a0aeeb67982d6d3)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: d2806775c42d586d3a0aeeb67982d6d3]]>
+Command: [0f74b0148c339bf264928916ec1f064b, clickElement {id=f.CC2C7CFCDB4B3917639FB0409FD4EE10.d.FB1CF6F16D4142204876019CC6B43731.e.119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58108}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58108/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0f74b0148c339bf264928916ec1f064b)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: 0f74b0148c339bf264928916ec1f064b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 653)
@@ -128,10 +128,10 @@ Session ID: d2806775c42d586d3a0aeeb67982d6d3]]>
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2806775c42d586d3a0aeeb67982d6d3, clickElement {id=f.6E0970ED63FBA395A8EDE76F1C752270.d.F5B62CB9C42C0485E8C8B9394509D349.e.119}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55616/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (d2806775c42d586d3a0aeeb67982d6d3)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: d2806775c42d586d3a0aeeb67982d6d3
+Command: [0f74b0148c339bf264928916ec1f064b, clickElement {id=f.CC2C7CFCDB4B3917639FB0409FD4EE10.d.FB1CF6F16D4142204876019CC6B43731.e.119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58108}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58108/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0f74b0148c339bf264928916ec1f064b)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: 0f74b0148c339bf264928916ec1f064b
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -157,7 +157,7 @@ at ✽.Checkout IPHONE 13 PRO and submit the order(file:///Users/tushargaur/ecli
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:59:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T00:59:36 IST" duration-ms="14198" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:54:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-26T15:54:18 IST" duration-ms="13779" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -172,26 +172,26 @@ at ✽.Checkout IPHONE 13 PRO and submit the order(file:///Users/tushargaur/ecli
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1057, 653)
+              <![CDATA[element click intercepted: Element is not clickable at point (1054, 653)
   (Session info: chrome=133.0.6943.127)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [804e57b270dc24e382c91986aad4a2d9, clickElement {id=f.680EC4632EBF36319EE76D4C8C8D3DB7.d.52F083A069EBEA23F655A9132F7D1E2F.e.115}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55635/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (804e57b270dc24e382c91986aad4a2d9)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: 804e57b270dc24e382c91986aad4a2d9]]>
+Command: [a9f83f0b46f3dc38f9fc0091dc77f0dd, clickElement {id=f.A2F31D51ADF34442BFF982CABD32754B.d.4A64491F8224BB20942C7D2336542095.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58129/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (a9f83f0b46f3dc38f9fc0091dc77f0dd)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: a9f83f0b46f3dc38f9fc0091dc77f0dd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1057, 653)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 653)
   (Session info: chrome=133.0.6943.127)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [804e57b270dc24e382c91986aad4a2d9, clickElement {id=f.680EC4632EBF36319EE76D4C8C8D3DB7.d.52F083A069EBEA23F655A9132F7D1E2F.e.115}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55635/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (804e57b270dc24e382c91986aad4a2d9)] -> xpath: //a[contains(@class,'action__submit')]]
-Session ID: 804e57b270dc24e382c91986aad4a2d9
+Command: [a9f83f0b46f3dc38f9fc0091dc77f0dd, clickElement {id=f.A2F31D51ADF34442BFF982CABD32754B.d.4A64491F8224BB20942C7D2336542095.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.127 (d2bb6cbbd2f..., userDataDir: /var/folders/lh/nnhkqjf54y5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58129/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (a9f83f0b46f3dc38f9fc0091dc77f0dd)] -> xpath: //a[contains(@class,'action__submit')]]
+Session ID: a9f83f0b46f3dc38f9fc0091dc77f0dd
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -217,7 +217,7 @@ at ✽.Checkout ADIDAS ORIGINAL and submit the order(file:///Users/tushargaur/ec
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T00:59:36 IST" name="tearDownClass" finished-at="2025-02-26T00:59:36 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@2cd76f31]" started-at="2025-02-26T15:54:18 IST" name="tearDownClass" finished-at="2025-02-26T15:54:18 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
