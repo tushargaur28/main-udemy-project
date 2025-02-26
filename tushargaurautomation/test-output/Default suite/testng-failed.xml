@@ -6,8 +6,8 @@
       <class name="cucumber.TestNGTestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="1 2 3"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- cucumber.TestNGTestRunner -->
     </classes>
